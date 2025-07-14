@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Mini Batalla Naval</string>
+    <string name="tamaño_mapa">Tamaño del Mapa</string>
+    <string name="seleccionar_tamaño">Selecciona el tamaño del mapa </string>
+    <string name="hint_name">Ingresa tu nombre</string>
+    <string name="volver">volver</string>
+    <string name="movements_text">Movimientos:</string>
+    <string name="hits_text">Aciertos:</string>
+    <string name="salir">Salir</string>
+    <string name="ranking">Top Five</string>
+    <string name="nuevo_juego">Nuevo Juego</string>
+    <string name="barcos_restantes">Barcos Restantes: %d</string>
+    <string name="movimientos">Movimientos: %d</string>
+    <string name="tamaño_seleccionado">Tamaño seleccionado: %s</string>
+    <string name="aciertos">Aciertos: %d</string>
+    <string name="empezar">Empezar</string>
+    <string name="help_title">Cómo jugar a Mini Batalla Naval</string>
+    <string name="mensaje_fin_juego">¡Felicitaciones %1$s! Has acertado %2$d barcos y tocaste %3$d aguas.</string>
+    <string name="barco">BARCO</string>
+    <string name="agua">AGUA</string>
+    <string name="nombre">Jugador: %1$s</string>
+
+    <!-- Textos nuevos agregados para completar -->
+    <string name="tiempo_restante">Faltan: %1$d segundos</string>
+    <string name="tiempo_agotado">¡Tiempo agotado! Has perdido la partida.</string>
+    <string name="fin_juego">Fin del juego</string>
+    <string name="se_acabo_tiempo">¡Se acabó el tiempo! ¿Querés volver al menú?</string>
+    <string name="volver_menu">Volver al Menú</string>
+    <string name="error_tamaño_no_valido"> error tamaño no valido </string>
+    <string name="jugar_nuevamente">Jugar Nuevamente</string>
+    <string name="ver_ranking">Ver Ranking</string>
+    <string name="compartir">Compartir</string>
+    <string name="texto_compartir_ranking">¡Obtuve %1$s puntos en el juego y entré al ranking!</string>
+    <string name="texto_compartir_simple">¡Obtuve %1$s puntos en el juego!</string>
+    <string name="resultado_con_ranking">¡Lograste acertar %1$d / %2$d! Tu puntuación es %3$s puntos. ¡Quedaste en el Ranking!</string>
+    <string name="resultado_sin_ranking">¡Lograste acertar %1$d / %2$d! Tienes una puntuación de %3$s puntos.</string>
+    <string name="menu_compartir">Compartir con</string>
+    <string name="Vacio">Vacio</string>
+
+
+    <string name="help_text">¡Bienvenido a Batalla Naval Pequeña! Aquí tienes una guía paso a paso sobre cómo jugar:\n
+1. Objetivo del juego:\n
+Encuentra y hunde todos los barcos ocultos en el tablero antes de quedarte sin movimientos.\n
+2. Cómo funciona el tablero:\n
+El tablero consiste en una cuadrícula de botones. Cada botón representa una celda donde puede o no haber un barco.\n
+3. Cómo jugar:\n
+- Toca una celda para "disparar" en esa posición.\n
+- Si aciertas un barco, la celda se volverá roja y sumarás un acierto.\n
+- Si no hay barco, la celda se volverá azul, indicando un disparo fallido.\n
+- Cada toque cuenta como un movimiento.\n
+4. Contadores:\n
+- Movimientos: cuántas celdas has tocado.\n
+- Aciertos: cuántos barcos encontraste.\n
+- Barcos restantes: cuántos barcos faltan por descubrir.\n
+5. Fin del juego:\n
+Cuando encuentres todos los barcos, el juego terminará y podrás ver un resumen de tus movimientos y aciertos.\n
+6. Consejos:\n
+- Piensa bien antes de disparar para no desperdiciar movimientos.\n
+- Usa la lógica para deducir dónde podrían estar los barcos.\n
+¡Diviértete y buena suerte hundiendo los barcos!</string>
+</resources>

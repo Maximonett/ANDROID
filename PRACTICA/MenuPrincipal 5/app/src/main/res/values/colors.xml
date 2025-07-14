@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="celeste_francia">#0072BB</color> <!-- Celeste Francia -->
+    <color name="gris_claro">#D3D3D3</color>      <!-- Gris claro -->
+    <color name="gris_oscuro">#808080</color>     <!-- Gris oscuro para texto -->
+    <color name="blanco">#FFFFFF</color>
+    <color name="bordo_profundo">#5C0000</color>
+    </resources>

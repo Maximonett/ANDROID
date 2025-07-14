@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+     >
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/barraHerramientas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris_claro"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/white"
+        android:layout_marginBottom="100dp"
+        android:padding="16dp"
+        android:backgroundTint="@color/celeste_francia"/>
+
+    <!-- Campo para nombre -->
+
+    <EditText
+        android:id="@+id/Nombre_jugador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/black"
+         />
+
+    <!-- Botón de ayuda -->
+    <Button
+        android:id="@+id/Ayuda_Informacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_title"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/celeste_francia"/>
+
+    <!-- Título -->
+    <Button
+        android:id="@+id/Tamaño_mapa"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/tamaño_mapa"
+        android:textSize="16sp"
+        android:backgroundTint="@color/celeste_francia"/>
+
+
+    <!-- Botones tamaño -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        >
+
+        <Button
+            android:id="@+id/tamaño_6x6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="6x6"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/celeste_francia"/>
+
+        <Button
+            android:id="@+id/tamaño_8x8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="8x8"
+            android:layout_marginHorizontal="4dp"
+            android:backgroundTint="@color/celeste_francia"/>
+
+        <Button
+            android:id="@+id/tamaño_10x10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10x10"
+            android:layout_marginStart="4dp"
+            android:backgroundTint="@color/celeste_francia"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/top5"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ranking"
+        android:backgroundTint="@color/celeste_francia"/>
+
+    <Button
+        android:id="@+id/botonEmpezar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empezar"
+        android:backgroundTint="@color/celeste_francia"/>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Small Naval Battle</string>
+    <string name="tamaño_mapa">Map size</string>
+    <string name="seleccionar_tamaño">Select the map size</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="movements_text">Moves:</string>
+    <string name="hits_text">Hits:</string>
+    <string name="salir">Exit</string>
+    <string name="volver">Back</string>
+    <string name="ranking">Top Five</string>
+    <string name="nuevo_juego">New Game</string>
+    <string name="barcos_restantes">Ships Remaining: %1$d</string>
+    <string name="movimientos">Moves: %1$d</string>
+    <string name="aciertos">Hits: %1$d</string>
+    <string name="empezar">Start</string>
+    <string name="tamaño_seleccionado">Selected size: %1$s</string>
+    <string name="help_title">How to Play Small Naval Battle</string>
+    <string name="mensaje_fin_juego">Congratulations %1$s! You hit %2$d ships and touched %3$d waters.</string>
+    <string name="barco">SHIP</string>
+    <string name="agua">WATER</string>
+    <string name="nombre">Player: %1$s</string>
+
+    <!-- New translated strings -->
+    <string name="tiempo_restante">%1$d seconds remaining</string>
+    <string name="tiempo_agotado">Time is up! You lost the game.</string>
+    <string name="fin_juego">Game Over</string>
+    <string name="se_acabo_tiempo">Time is up! Do you want to return to the menu?</string>
+    <string name="error_tamaño_no_valido"> invalid size error </string>
+    <string name="volver_menu">Return to Menu</string>
+    <string name="jugar_nuevamente">Play Again</string>
+    <string name="ver_ranking">View Ranking</string>
+    <string name="compartir">Share</string>
+    <string name="texto_compartir_ranking">I scored %1$s points and made it to the ranking!</string>
+    <string name="texto_compartir_simple">I scored %1$s points in the game!</string>
+    <string name="resultado_con_ranking">You hit %1$d / %2$d! Your score is %3$s points. You made it to the ranking!</string>
+    <string name="resultado_sin_ranking">You hit %1$d / %2$d! Your score is %3$s points.</string>
+    <string name="menu_compartir">Share with</string>
+    <string name="Vacio">Empty</string>
+
+    <string name="help_text">Welcome to Small Naval Battle! Here is a step-by-step guide on how to play:\n
+1. Game objective:\n
+Find and sink all hidden ships on the board before running out of moves.\n
+2. How the board works:\n
+The board consists of a grid of buttons. Each button represents a cell where there may or may not be a ship.\n
+3. How to play:\n
+- Tap a cell to "shoot" at that position.\n
+- If you hit a ship, the cell will turn red and you will score a hit.\n
+- If there is no ship, the cell will turn blue, indicating a missed shot.\n
+- Each tap counts as a move.\n
+4. Counters:\n
+- Moves: How many cells you have tapped.\n
+- Hits: How many ships you have found.\n
+- Remaining ships: How many ships are yet to be discovered.\n
+5. End of the game:\n
+When you find all ships, the game ends and you can see a summary of your moves and hits.\n
+6. Tips:\n
+- Think carefully before shooting to avoid wasting moves.\n
+- Use logic to deduce where ships might be.\n
+Have fun and good luck sinking the ships!</string>
+</resources>

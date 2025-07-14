@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/barraHerramientas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/white"
+        android:backgroundTint="@color/celeste_francia"/>
+
+    <!-- Contenido horizontal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <!-- Columna izquierda -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:backgroundTint="@color/celeste_francia">
+
+            <EditText
+                android:id="@+id/Nombre_jugador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_name"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/Ayuda_Informacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/help_title"
+                android:backgroundTint="@color/celeste_francia"/>
+
+            <Button
+                android:id="@+id/Tamaño_mapa"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tamaño_mapa"
+                android:textSize="16sp"
+                android:backgroundTint="@color/celeste_francia"/>
+            <Button
+                android:id="@+id/top5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ranking"
+                android:backgroundTint="@color/celeste_francia"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="14sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/seleccionar_tamaño"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tamaño_6x6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6x6"
+                android:backgroundTint="@color/celeste_francia"/>
+
+            <Button
+                android:id="@+id/tamaño_8x8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8x8"
+                android:backgroundTint="@color/celeste_francia"/>
+
+            <Button
+                android:id="@+id/tamaño_10x10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10x10"
+                android:backgroundTint="@color/celeste_francia"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/botonEmpezar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empezar"
+        android:backgroundTint="@color/celeste_francia"/>
+
+</LinearLayout>
